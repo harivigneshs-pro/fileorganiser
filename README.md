@@ -55,4 +55,35 @@ FileOrganizer
 
 │   └── ReportGenerator.java
 
+CODE SKELETON:
+// Base class
+
+public class FileHandler {
+    
+    protected String filePath;
+   
+    public void scanFiles(String directoryPath) { }
+
+}
+
+
+// Organizer class
+
+public class FileOrganizer extends FileHandler {
+   
+    public void organizeFiles() { }
+
+}
+
+
+// Duplicate Finder class
+
+public class DuplicateFinder extends FileHandler {
+   
+    public void findDuplicates() { }
+
+}
+
+
+
 
