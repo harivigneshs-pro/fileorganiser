@@ -21,14 +21,19 @@ CLASS DIAGRAM:
 
 
 Explanation of OOP Concepts Used
+
 Encapsulation:
 Each FileItem object stores its own properties (name, path, type, hash).
+
 Inheritance:
 DocumentFile, ImageFile, VideoFile extend FileItem.
+
 Polymorphism:
 organize() behaves differently for each file type (e.g., images into “Images” folder, PDFs into “Documents”).
+
 Abstraction:
 User interacts with simple functions (organize, find duplicates) without knowing hashing logic internally.
+
 programming languageto be used : java
 
 FileOrganizer
