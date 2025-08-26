@@ -2,6 +2,7 @@
 Project Title & Brief Description
 Title: File Organiser and Duplicate File Finder Tool
 
+
 Description:
 when we download a file,by defaault it gets stored in either downloads or desktop organiser.
 we used to forget to specify where it has to be stored .
@@ -13,8 +14,11 @@ this can also be detected by this tool.
 by the option move/delete we can reduce the memmory occupied.
 if required some of the files can also be excluded from the organising process.
 also planned to integrate user defined rules for organising the files.
+
 TARGET USERS:
+
 Students, professionals, and anyone who needs to keep their computer storage organized and clutter-free.
+
 CLASS DIAGRAM:
 
 <img width="794" height="659" alt="Untitled Diagram drawio" src="https://github.com/user-attachments/assets/6c40a177-480f-4a1e-9b1c-0597895c65a3" />
