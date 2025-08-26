@@ -1,4 +1,4 @@
-<img width="3256" height="2716" alt="image" src="https://github.com/user-attachments/assets/f14ac0bf-af02-40c4-a917-28fa9a1913fd" /># fileorganiser
+# fileorganiser
 Project Title & Brief Description
 Title: File Organiser and Duplicate File Finder Tool
 
