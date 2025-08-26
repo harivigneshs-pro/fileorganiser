@@ -40,12 +40,19 @@ User interacts with simple functions (organize, find duplicates) without knowing
 
 programming languageto be used : java
 
+
 FileOrganizer
+
 ├── src
+
 │   ├── Main.java
+
 │   ├── FileOrganizer.java
+
 │   ├── DuplicateFinder.java
+
 │   ├── FileHasher.java
+
 │   └── ReportGenerator.java
 
 
