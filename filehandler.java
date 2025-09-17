@@ -16,7 +16,7 @@ public class FileHandler {
 
         if (!dir.exists() || !dir.isDirectory()) {
             System.out.println("Invalid directory: " + directoryPath);
-            return;
+            return;//returning the function
         }
 
         File[] files = dir.listFiles();
