@@ -14,7 +14,7 @@ public class FileHasher {
             while ((bytesCount = fis.read(byteArray)) != -1) {
                 digest.update(byteArray, 0, bytesCount);
             }
-            fis.close();
+            fis.close();//closing the file called fls
 
             byte[] bytes = digest.digest();
             StringBuilder sb = new StringBuilder();
