@@ -1,4 +1,5 @@
 //this file is for handling the file
+//this is a java code for handlling ythe files wit its path name and location
 import java.io.File;
 
 public class FileHandler {
