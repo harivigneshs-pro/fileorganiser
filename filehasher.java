@@ -24,6 +24,7 @@ public class FileHasher {
             return sb.toString();
 
         } catch (Exception e) {
+            //handlling the exception if any error occurs
             e.printStackTrace();
             return null;
         }
