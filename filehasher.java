@@ -1,6 +1,6 @@
 //this file is for hashing 
-import java.io.FileInputStream;
-import java.security.MessageDigest;
+import java.io.FileInputStream;//stream like in cpp
+import java.security.MessageDigest;//a module in security package
 
 public class FileHasher {
     public static String getFileHash(String filePath) {
