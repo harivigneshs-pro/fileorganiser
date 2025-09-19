@@ -10,15 +10,16 @@ public class DuplicateFinder {
     }
     public void findDuplicates() {
         File folder = new File(folderPath);
-        File[] files = folder.listFiles();
+        File[] files = folder.listFiles();//listFiles a built in method for listing all the files in a folder
 if (files == null) 
     return;
         HashSet<String> seen = new HashSet<>();
  System.out.println("\nChecking duplicates...");
         for (File f : files) {
             if (f.isFile()) {
-                String name = f.getName();
+                String name = f.getName();//fetches name of the file 
                 if (seen.contains(name)) {
+                    //contains-built in method to check value present or not
                     System.out.println("Duplicate found: " + name);
                 } else {
                     seen.add(name);
