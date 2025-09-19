@@ -59,7 +59,7 @@ FileOrganizer
 CODE SKELETON:
 // Base class
 
-public class FileHandler {
+public class Fileorganizer {
     
     protected String filePath;
    
