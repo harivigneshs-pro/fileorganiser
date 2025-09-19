@@ -9,20 +9,20 @@ public class FileOrganizer {
   public void organizeFiles(){
         File folder=new File(folderPath);
         File[] files=folder.listFiles();
- if (files==null){
+ if(files==null){
             System.out.println("Folder not found!");
             return;
       }
-for (File f:files) {
-      if (f.isFile()){
+for(File f:files) {
+      if(f.isFile()){
           String name=f.getName();
         String ext="";
         int dot=name.lastIndexOf(".");
-      if (dot!=-1){
+      if(dot!=-1){
                     ext = name.substring(dot + 1).toLowerCase();
                 }
 String category="Others";
-    if (ext.equals("jpg")||ext.equals("png"))
+    if(ext.equals("jpg")||ext.equals("png"))
       category="Images";
    else if(ext.equals("mp4"))
      category = "Videos";
