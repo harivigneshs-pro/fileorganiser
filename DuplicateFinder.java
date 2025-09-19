@@ -13,14 +13,15 @@ public class DuplicateFinder{
         if (files==null) 
                 return;
         HashSet<String> seen=new HashSet<>();
-         System.out.println("\nChecking duplicates...");
-        for (File f : files){
+        System.out.println("\nChecking duplicates...");
+        for (File f:files){
             if (f.isFile()){
                 String name=f.getName();//fetches name of the file 
                 if (seen.contains(name)){
                     //contains-built in method to check value present or not
                     System.out.println("Duplicate found: " + name);
-                } else{
+                }
+                else{
                     seen.add(name);
                 }
             }
