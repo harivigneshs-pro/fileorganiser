@@ -1,4 +1,4 @@
-//this file is to remove duplicate files using hashing
+//this file is to remove duplicate files using hashset
 //the file initially finds the duplicates  tecniques
 import java.io.File;
 import java.util.HashSet;
