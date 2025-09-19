@@ -21,7 +21,8 @@ Students, professionals, and anyone who needs to keep their computer storage org
 
 CLASS DIAGRAM:
 
-<img width="794" height="659" alt="Untitled Diagram drawio" src="https://github.com/user-attachments/assets/6c40a177-480f-4a1e-9b1c-0597895c65a3" />
+<img width="668" height="368" alt="image" src="https://github.com/user-attachments/assets/92856bcb-fcf7-42f1-83ed-655aa804e7ed" />
+
 
 
 Explanation of OOP Concepts Used
