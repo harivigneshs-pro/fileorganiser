@@ -13,7 +13,7 @@ public class FileOrganizer {
             System.out.println("Folder not found!");
             return;
       }
-for (File f : files) {
+for (File f:files) {
       if (f.isFile()){
           String name=f.getName();
         String ext="";
