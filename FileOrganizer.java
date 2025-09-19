@@ -5,7 +5,7 @@ public class FileOrganizer {
     String folderPath;
   public FileOrganizer(String path){
         this.folderPath=path;
-    }
+    }//constructor
   public void organizeFiles(){
         File folder=new File(folderPath);
         File[] files=folder.listFiles();
